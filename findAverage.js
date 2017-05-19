@@ -13,5 +13,9 @@ function findAvg(arr) {
         avg = avg + arr[i];
     }
     avg = avg / arr.length;
+    // round of the average
+    console.log(Math.trunc(avg));
     return avg; 
 }
+
+findAvg([1,3,5,7,20]);
