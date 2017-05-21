@@ -4,7 +4,7 @@
   (e.g. [1,5,10,-2] will become [1,25,100,4])
 */
 
-function sqauresVal() {
+function sqauresVal(arr) {
   for(var i = 0; i < arr.length; i++) {
     arr[i] = arr[i] * arr[i];
   }
