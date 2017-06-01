@@ -1,5 +1,3 @@
-
-
 function reverseString(str) {
   let newString = "";
 
