@@ -1,0 +1,16 @@
+function palindrome(num) {
+  var a, b, temp = 0;
+  b = num;
+  while (num > 0) {
+    a = num % 10;
+    num = parseInt(num / 10);
+    temp = temp * 10 + a;
+  }
+  if (temp == b) {
+    return alert("Number is Palindrome");
+  } else {
+    return alert("Number is not Palindrome")
+  }
+}
+
+palindrome(1212);
