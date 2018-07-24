@@ -6,11 +6,13 @@
 // reverse('Srinivas') === 'savinirs'
 
 function reverse(str) {
-  let newStr = ''
+  let reversed = ''
+  
   for (let character of str) {
-    newStr = character + newStr;
+    reversed = character + reversed;
   }
-  return newStr;
+  
+  return reversed;
 }
 
 console.log(reverse('HTML'));
